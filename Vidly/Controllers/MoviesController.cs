@@ -31,7 +31,7 @@ namespace Vidly.Controllers
 
         public ActionResult Detail(int id)
         {
-            var movie = movies.Where(m => m.Id == id).FirstOrDefault();
+            var movie = movies.SingleOrDefault(m => m.Id == id);
 
             if (movie == null)
                 return HttpNotFound();
