@@ -211,6 +211,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\MembershipTypeDto.cs" />
     <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -285,16 +286,41 @@
     <Content Include="Content\bootstrap-lumen.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\datatables\css\dataTables.bootstrap.css" />
+    <Content Include="Content\datatables\css\dataTables.bootstrap.min.css" />
+    <Content Include="Content\datatables\css\dataTables.bootstrap4.css" />
+    <Content Include="Content\datatables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Content\datatables\css\dataTables.foundation.css" />
+    <Content Include="Content\datatables\css\dataTables.foundation.min.css" />
+    <Content Include="Content\datatables\css\dataTables.jqueryui.css" />
+    <Content Include="Content\datatables\css\dataTables.jqueryui.min.css" />
+    <Content Include="Content\datatables\css\dataTables.semanticui.css" />
+    <Content Include="Content\datatables\css\dataTables.semanticui.min.css" />
+    <Content Include="Content\datatables\css\jquery.dataTables.css" />
+    <Content Include="Content\datatables\css\jquery.dataTables.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\datatables\dataTables.bootstrap.js" />
+    <Content Include="Scripts\datatables\dataTables.bootstrap.min.js" />
+    <Content Include="Scripts\datatables\dataTables.bootstrap4.js" />
+    <Content Include="Scripts\datatables\dataTables.bootstrap4.min.js" />
+    <Content Include="Scripts\datatables\dataTables.foundation.js" />
+    <Content Include="Scripts\datatables\dataTables.foundation.min.js" />
+    <Content Include="Scripts\datatables\dataTables.jqueryui.js" />
+    <Content Include="Scripts\datatables\dataTables.jqueryui.min.js" />
+    <Content Include="Scripts\datatables\dataTables.semanticui.js" />
+    <Content Include="Scripts\datatables\dataTables.semanticui.min.js" />
+    <Content Include="Scripts\datatables\jquery.dataTables.js" />
+    <Content Include="Scripts\datatables\jquery.dataTables.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
